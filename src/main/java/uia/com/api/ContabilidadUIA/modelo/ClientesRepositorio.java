@@ -44,6 +44,11 @@ public class ClientesRepositorio {
 			return gestorProveedores.agregaCatalogo(newCliente);			
 		}
 
+		public InfoUIA eliminarCatalogo(InfoUIA deleteCliente)   
+		{			
+			return gestorProveedores.eliminarCatalogo(deleteCliente);			
+		}
+
 		public String getClienteId() {
 			return clienteId;
 		}

@@ -18,4 +18,5 @@ public interface IGestor {
 	public IGestor getGestor();
 	public void setGestor(IGestor p);
 	public void salva();
+	InfoUIA eliminarCatalogo(InfoUIA p);
 }

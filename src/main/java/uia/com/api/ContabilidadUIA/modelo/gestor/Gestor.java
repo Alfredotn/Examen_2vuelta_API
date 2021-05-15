@@ -69,4 +69,11 @@ public class Gestor extends AGestor{
 		return super.getMiLista();
 	}
 
+
+	@Override
+	public InfoUIA eliminarCatalogo(InfoUIA p) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
